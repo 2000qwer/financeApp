@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="344.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fincance_app.Controller_add_expanse">
+   <children>
+      <TextField fx:id="id_category" layoutX="64.0" layoutY="178.0" prefHeight="25.0" prefWidth="79.0" />
+      <TextField fx:id="id_name" layoutX="183.0" layoutY="178.0" prefHeight="25.0" prefWidth="79.0" />
+      <TextField fx:id="id_price" layoutX="293.0" layoutY="178.0" prefHeight="25.0" prefWidth="79.0" />
+      <TextField fx:id="id_date" layoutX="403.0" layoutY="178.0" prefHeight="25.0" prefWidth="79.0" />
+      <Button fx:id="id_add" layoutX="400.0" layoutY="269.0" mnemonicParsing="false" onAction="#add" prefHeight="41.0" prefWidth="86.0" text="Add" />
+      <Text layoutX="66.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Category">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="197.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="312.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="423.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="43.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="            Expanse menu" wrappingWidth="446.13671875">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Text>
+      <Button fx:id="id_back" layoutX="66.0" layoutY="266.0" mnemonicParsing="false" onAction="#goBack" prefHeight="41.0" prefWidth="76.0" text="Back" />
+   </children>
+</AnchorPane>

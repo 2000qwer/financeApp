@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="589.0" prefWidth="870.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fincance_app.loggedInController">
+    <children>
+        <TableView fx:id="id_expenses" layoutX="43.0" layoutY="87.0" prefHeight="324.0" prefWidth="784.0">
+            <columns>
+                <TableColumn fx:id="id_category" prefWidth="152.0" text="Kategoria" />
+                <TableColumn fx:id="id_name" prefWidth="200.0" text="Nazwa" />
+                <TableColumn fx:id="id_price" prefWidth="188.0" text="Kwota" />
+                <TableColumn fx:id="id_date" prefWidth="243.0" text="Data wydatku" />
+            </columns>
+        </TableView>
+        <Button fx:id="logoutButton" layoutX="724.0" layoutY="543.0" mnemonicParsing="false" onAction="#Logout" prefHeight="25.0" prefWidth="99.0" text="Logout" />
+        <Button fx:id="add_expense" layoutX="687.0" layoutY="38.0" mnemonicParsing="false" onAction="#add_expense_window" text="Add expense" />
+      <Button layoutX="515.0" layoutY="38.0" mnemonicParsing="false" onAction="#maxExpanse" text="max" />
+      <Button fx:id="showAll" layoutX="409.0" layoutY="38.0" mnemonicParsing="false" onAction="#showAll" text="All" />
+      <Button layoutX="297.0" layoutY="38.0" mnemonicParsing="false" onAction="#showMin" text="min" />
+    </children>
+</AnchorPane>
